@@ -1,0 +1,50 @@
+body{
+	background-color: #242582;
+	font-family: Roboto Condensed;
+}
+h2{
+	font-size: 35px;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+}
+
+a{
+	font-size: 25px;
+	color: #F64C72;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	margin-left: 30px;
+	margin-top: 40px;
+
+}
+
+p{
+	max-width: 50%;
+	font-size: 25px;
+	color: white;
+
+}
+
+h1{
+	margin-top: 30px;
+	font-size: 50px;
+	color: white;
+}
+
+hr{
+	color: darkred;
+	width: 75%;
+}
+
+img{
+	width: 650px;
+	height: 400px;
+	border-radius: 20px;
+}
+
+marquee{
+	margin-top: 25px;
+	color: #F64C72;
+}
