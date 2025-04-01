@@ -1,50 +1,63 @@
-body{
-	background-color: #242582;
-	font-family: Roboto Condensed;
-}
-h2{
-	font-size: 35px;
-	color: white;
-	padding: 10px;
-	text-decoration: none;
+/* Общие стили */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: white; /* Белый фон */
+    color: black; /* Чёрный текст */
+    margin: 0;
+    padding: 0;
 }
 
-a{
-	font-size: 25px;
-	color: #F64C72;
-	padding: 10px;
-	text-decoration: none;
-	font-weight: bold;
-	margin-left: 30px;
-	margin-top: 40px;
-
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 900px;
 }
 
-p{
-	max-width: 50%;
-	font-size: 25px;
-	color: white;
-
+/* Главная ссылка */
+.main-link {
+    font-size: 25px;
+    color: blue; /* Голубая ссылка */
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block; /* Размещение отдельно */
 }
 
-h1{
-	margin-top: 30px;
-	font-size: 50px;
-	color: white;
+.main-link:hover {
+    text-decoration: underline; /* Эффект при наведении */
 }
 
-hr{
-	color: darkred;
-	width: 75%;
+/* Заголовок */
+h2 {
+    font-size: 35px;
+    margin: 20px 0;
 }
 
-img{
-	width: 650px;
-	height: 400px;
-	border-radius: 20px;
+/* Разделитель */
+hr {
+    border: none;
+    border-top: 2px solid darkred; /* Тёмно-красный разделитель */
+    width: 100%;
+    margin: 20px 0;
 }
 
-marquee{
-	margin-top: 25px;
-	color: #F64C72;
+/* Тема ДП */
+h1 {
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+/* Ссылки */
+.links a {
+    font-size: 18px;
+    color: black; /* Чёрный цвет текста */
+    text-decoration: none;
+    margin: 10px 0;
+    display: block; /* Расположение по левому краю */
+    transition: color 0.3s ease;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: gray; /* Серый цвет при наведении */
 }
